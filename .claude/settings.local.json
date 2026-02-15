@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@latest . -- --template react-ts --overwrite)",
+      "Bash(npx --yes create-vite@latest stackbirds-temp --template react-ts:*)",
+      "Bash(xcopy /E /Y \"C:\\\\GitHub\\\\Stack-Birds-Frontend\\\\stackbirds-temp\\\\*\" \"C:\\\\GitHub\\\\Stack-Birds-Frontend\"\" 2>&1 && rmdir /S /Q \"C:GitHubStack-Birds-Frontendstackbirds-temp \")",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite build:*)",
+      "Bash(dir /s /b)",
+      "Bash(timeout:*)",
+      "Bash(npx vite:*)",
+      "Bash(ping:*)"
+    ]
+  }
+}
